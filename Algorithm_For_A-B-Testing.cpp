@@ -56,12 +56,12 @@ int main()
 {
 	int data[10000][3];
 
-	populator(500,0.5);
+	populator(20,0.5);
 	data_disp();
 
 	while(1){
 	cin.get();
-	populator(500,choicefinder());
+	populator(20,choicefinder());
 	data_disp();
 	}
 }
