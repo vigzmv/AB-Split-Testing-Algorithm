@@ -1,2 +1,2 @@
 # AB-Testing
-AB-Testing Algorithm
+The A/B-Testing Algorithm implemented C++
