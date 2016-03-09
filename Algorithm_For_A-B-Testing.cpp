@@ -11,7 +11,7 @@ int pos=0;
 int populator(int usrCount,float splt)
 {
 	srand (time(NULL));
-	cout<<"Split Value = "<<splt*usrCount<<"\n";
+	cout<<"Split Value = "<<splt<<"\n";
 	for (int j=0,i = pos; i <= usrCount+pos; ++i,j++)
 	{
 		data[i][0]=i+1;
